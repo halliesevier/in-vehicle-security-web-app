@@ -23,24 +23,7 @@
             
             .content h1{
                 text-align: center;
-                margin-top: 100px;
-            }
-            .content h2{
-                text-align: center;
-                margin-top: 20px;
-            }
-            .view-button {
-                text-align: center
-            }
-
-            .form {
-                border-radius: 25px;
-                background-color: #ffffff;
-                width: 50%;
-            }
-
-            .form h2{
-                text-align: center;
+                margin-top: 150px;
             }
 
             .tntech {
@@ -53,76 +36,21 @@
                 top: 8px;
                 left: 16px;
             }
-
-            input[type=text], input[type=file]{
-                border:2px solid #9e9e9e;
-            }
-
-            button[type=button]{
-                background-color: #9e9e9e;
-                border: none;
-                border-radius: 25px;
-                color: white;
-                padding: 16px 32px;
-                text-decoration: none;
-                margin: 4px 2px;
-                cursor: pointer;
+            .download-button {
+                text-align: center;
             }
 
         </style>
     </head>
-    <!-- <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif-->
             <div class ="content">
                 <img src="/img/tntechlogo.png" class="tntech" width="200" height="200">
                 <img src="/img/nsalogo.png" class="nsa" width="200" height="200">
-                <h1>In-Vehicle Security Testbed</h1>
-    
-                <h2>Submit Job</h2>
-                <div class="form max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <h2> Please enter the details.</h2>
-                    <form action="details_entry.php" method="post" enctype="multipart/form-data">
-                        <table border="1" align="center">
-                            <tr>
-                                <td>
-                                <label>Enter Name</label></td>
-                                <td><input type="text" name="name"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                <label>Enter Email</label></td>
-                                <td><input type="text" name="email"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                <label for="file">Filename:</label></td>
-                                <td><input type="file" name="file" id="file" /></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="center"><button type="button" onclick="window.location='{{route("success")}}'">Submit</button></td>
-                            </tr>
-                        </table>
-                    </form>
+                <h1>In-Vehicle Security Testbed Results</h1>
+                <div class="download-button">
+                <a href="/files/degreeplan.txt" download>
+                    <button type="button">Download TXT</button></a>
                 </div>
-                <h2> Or View results</h2>
-                <div class="view-button">
-                <button type="button" onclick="window.location='{{route("result")}}'">View Results</button>
-        </div>
             </div>
-        <!-- </div> -->
     </body>
     
 </html>

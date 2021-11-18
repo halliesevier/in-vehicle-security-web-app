@@ -1,0 +1,53 @@
+Fall
+calc 1 -             4 ** A
+british lit -        3 ** A
+music appreciation - 3 ** A
+intro to prob -      4 ** A
+intro honors -       1 ** A
+___________________= 15
+
+Spring 20
+calc 2 -             4 ** P
+data struct -        4 ** A
+hist 1 -             3 ** A
+gen bio 1 -          4 ** A
+___________________= 15
+
+Fall 20
+linear algebra -     3 ** A
+Honors Bio 2 -       4 ** A
+discrete struct -    3 ** A
+object oriented -    4 ** A
+unix lab -           1 ** A
+___________________= 15
+
+Spring 21
+design of algor -    3 ** A
+special topics -     3 ** A
+geol 1 -             4 ** A
+foundations -        3 ** D
+hon cyberlaw -	     3 ** A
+___________________= 16
+
+Fall 21
+IT Security -        3 
+prof in comp -       3 
+computer organize -  3
+comp net -           3
+database manage -    3
+___________________= 15
+
+Spring 22 
+csc elective -       3
+stats 1 3070 -       3
+operating systems -  3 
+soft eng 1 -         3 
+info assur -         3 
+___________________= 15
+
+Fall 22 
+software engin 2 -   3
+stats 2 -            3
+cyber elective       3
+comp architect  -    3  
+___________________= 12
