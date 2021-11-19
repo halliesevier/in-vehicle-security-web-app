@@ -17,10 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/thankyou', function () {
-    return view('thankyou');
-})->name('success');
-
-Route::get('/results', function () {
-    return view('results');
+Route::get('/result', function () {
+    return view('jobs.result');
 })->name('result');
+
+Route::get(
+    '/result/2',
+    function () {
+        return view('jobs.download');
+    }
+)->name('result.2');
+
+Route::get('/jobs', 'App\Http\Controllers\JobController@index')->name('jobs');
+Route::get('/jobs/create', 'App\Http\Controllers\JobController@create')->name('jobs.create');
+Route::post('/jobs', 'App\Http\Controllers\JobController@store')->name('jobs.store');
