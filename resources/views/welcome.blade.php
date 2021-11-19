@@ -27,7 +27,8 @@
             }
             .content h2{
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 68px;
+                background-color: white;
             }
             .view-button {
                 text-align: center
@@ -59,7 +60,7 @@
             }
 
             button[type=button]{
-                background-color: #9e9e9e;
+                background-color: #FFDD00;
                 border: none;
                 border-radius: 25px;
                 color: white;
